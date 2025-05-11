@@ -49,6 +49,7 @@ async function fetchVocabularyData(listId, jsonFile, category) {
       }
     });
   }
+
   
   // Set up all three buttons for different categories
   setupVocabularyButton('vocabularyButton-words', 'wordList-words', '/words.json', '生词');

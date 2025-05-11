@@ -21,7 +21,7 @@ body {
    2. Header & Logo
 ============================= */
 header {
-  background-color: #000;
+  background-color: #000000;
   border-bottom: 2px solid #f7f7f7;
   padding: 25px 50px;
   display: flex;
@@ -29,7 +29,24 @@ header {
   justify-content: space-between;
   align-items: center;
   gap: 50px;
+
+  animation: glowingHeader 2s infinite ease-in-out;
 }
+
+@keyframes glowingHeader {
+  0% {
+    box-shadow: 0 0 5px #3cdb3f, 0 0 10px #00f6ff;
+  }
+  50% {
+    box-shadow: 0 0 20px #00f6ff, 0 0 40px #c5a0b0;
+  }
+  100% {
+    box-shadow: 0 0 5px #00f6ff, 0 0 10px #00f6ff;
+  }
+}
+
+
+
 
 .logo-container {
   display: flex;
@@ -480,3 +497,86 @@ header {
     font-size: 13px;
   }
 }
+
+
+
+
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+footer p {
+  margin: 0;
+}
+
+.fb-btn {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+  padding: 8px 14px;
+  background-color: #1877F2; /* Facebook blue */
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.fb-btn i {
+  margin-right: 6px;
+  font-size: 18px;
+}
+
+.fb-btn:hover {
+  background-color: #0d5bd7;
+  transform: translateY(-2px);
+}
+
+
+
+
+
+.bounce-in {
+  animation: bounceIn 1s ease-out;
+  display: inline-block;
+  font-family: 'Khmer OS Siemreap', Arial, sans-serif;
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+
+.highlight-name {
+  color: #2c3e50; /* ពណ៌ចាស់ទាន់សម័យ */
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.highlight-name:hover {
+  color: #1abc9c; /* ពណ៌ស្រស់ស្អាតពេល hover */
+  text-shadow: 0 0 5px rgba(26, 188, 156, 0.5);
+  cursor: pointer;
+}
+
