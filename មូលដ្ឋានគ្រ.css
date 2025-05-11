@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+  margin: 0;
+}
+
+.section {
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.content-box .item {
+  width: 120px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #e7e7e7;
+  text-align: center;
+  border-radius: 6px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.content-box .item:hover {
+  transform: scale(1.1);
+  background-color: #007bff;
+  color: white;
+}
+
+.content-box .item span {
+  display: block;
+  font-weight: bold;
+}
+@media (max-width: 600px) {
+  .content-box .item {
+    width: 80px; /* Reduce the size of the items on small screens */
+  }
+}
+.section {
+      margin: 20px;
+      padding: 10px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+
+
+
+ #initials button {
+    background-color: #007bff; /* ពណ៌ខៀវស្រស់ */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #initials button:hover {
+    background-color: #0056b3; /* ពណ៌ខៀវច្រើនជាង */
+    transform: scale(1.05);
+  }
+
+  #initials button:active {
+    transform: scale(0.97);
+  }
+
+
+
+
+
+  
+ #finals button {
+    background-color: #007bff; /* ពណ៌ខៀវស្រស់ */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #finals button:hover {
+    background-color: #0056b3; /* ពណ៌ខៀវច្រើនជាង */
+    transform: scale(1.05);
+  }
+
+  #finals button:active {
+    transform: scale(0.97);
+  }
+
+
+
+
+
+  #zhengtiyin button {
+    background-color: #007bff; /* ពណ៌ខៀវស្រស់ */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #zhengtiyin button:hover {
+    background-color: #0056b3; /* ពណ៌ខៀវច្រើនជាង */
+    transform: scale(1.05);
+  }
+
+  #zhengtiyin button:active {
+    transform: scale(0.97);
+  }
+
+
+
+
+  #numbers button {
+    background-color: #007bff; /* ពណ៌ខៀវស្រស់ */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #numbers button:hover {
+    background-color: #0056b3; /* ពណ៌ខៀវច្រើនជាង */
+    transform: scale(1.05);
+  }
+
+  #numbers button:active {
+    transform: scale(0.97);
+  }
+
+ #wordBox button {
+    background-color: #4CAF50; /* ពណ៌ខៀវស្រងាត់ */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  #wordBox button:hover {
+    background-color: #45a049;
+    transform: scale(1.05); /* ពង្រីកបន្តិចពេល hover */
+  }
+
+  #wordBox button:active {
+    transform: scale(0.97); /* បន្ថយបន្តិចពេលចុច */
+  }

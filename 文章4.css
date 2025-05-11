@@ -1,0 +1,74 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Title styling */
+  h1#article-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  /* Styling for the article section */
+  #article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headings for Chinese, Pinyin, and Khmer sections */
+  h2 {
+    color: #2c3e50;
+    margin-top: 20px;
+    font-size: 1.8em;
+  }
+  
+  /* Content sections for Chinese, Pinyin, and Khmer */
+  p {
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+  
+  /* Style for example and translations */
+  .example {
+    font-weight: bold;
+    color: #2980b9;
+  }
+  
+  .pinyin {
+    font-style: italic;
+    color: #8e44ad;
+  }
+  
+  .khmer {
+    color: #27ae60;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    #article {
+      padding: 15px;
+    }
+  
+    h1#article-title {
+      font-size: 2em;
+    }
+  
+    h2 {
+      font-size: 1.6em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  }
+  
